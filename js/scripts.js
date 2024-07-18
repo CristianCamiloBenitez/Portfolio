@@ -2,6 +2,8 @@ const toggleTheme = document.getElementById('toggle-theme');
 const toggleIcon = document.getElementById('toggle-icon');
 const toggleText = document.getElementById('toggle-text');
 
+const profileImage = document.querySelector('.card__image-container img');
+
 const toggleColors = document.getElementById("toggle-colors");
 
 const rootStyles = document.documentElement.style;
@@ -30,10 +32,12 @@ toggleTheme.addEventListener('click', ()=>{
     document.body.classList.toggle('dark');
     if(toggleIcon.src.includes('moon.svg')){
         toggleIcon.src = 'assets/icons/sun.svg';
-        toggleText.textContent='Light Mode'
+        toggleText.textContent='Light Mode';
+        profileImage.src = 'assets/images/profile.jpeg';
     }else{
         toggleIcon.src = 'assets/icons/moon.svg';
-        toggleText.textContent='Dark Mode'
+        toggleText.textContent='Dark Mode';
+        profileImage.src = 'assets/images/profile2.jpeg';
     }
 })
 
