@@ -34,6 +34,7 @@ body.dark{
     --text-color: hsl(0, 0%, 83%);
     --bg-color: hsl(0, 0%, 15%);
     --bg-card-color: hsl(0, 0%, 20%);
+    --primary-color: hsl(305, 88%, 39%);
 }
 
 .header{
@@ -82,30 +83,6 @@ body.dark{
 .flags__img{
     display: block;
     cursor: pointer;
-}
-
-.colors{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 20px;
-    width: 100px;
-}
-
-.colors__item{
-    width: 20px;
-    height: 20px;
-    border: 1px solid var(--text-color);
-    background-color: var(--primary-color);
-    cursor: pointer;
-}
-
-.colors__item--blue{
-    --primary-color: hsl(214, 84%, 56%);
-}
-
-.colors__item--green{
-    --primary-color: hsl(305, 82%, 47%);
 }
 
 .title{

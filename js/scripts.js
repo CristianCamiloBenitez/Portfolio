@@ -4,10 +4,6 @@ const toggleText = document.getElementById('toggle-text');
 
 const profileImage = document.querySelector('.card__image-container img');
 
-const toggleColors = document.getElementById("toggle-colors");
-
-const rootStyles = document.documentElement.style;
-
 const flagsElement = document.getElementById("flags");
 
 const textsToChange = document.querySelectorAll("[data-section]");
@@ -40,7 +36,4 @@ toggleTheme.addEventListener('click', ()=>{
         profileImage.src = 'assets/images/profile2.jpeg';
     }
 })
-
-toggleColors.addEventListener('click', (e)=>{
-    rootStyles.setProperty('--primary-color', e.target.dataset.color);
-});
+;
