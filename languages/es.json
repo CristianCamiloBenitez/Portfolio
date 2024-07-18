@@ -1,0 +1,18 @@
+{
+    "profile":{
+        "rol": "Desarrollador front-end",
+        "description": "lorem"
+    },
+    "experience":{
+        "first-job-title": "Desarrollador",
+        "first-job-dates": "Enero 2018 - Enero 2020",
+        "first-job-description": "lorem",
+        "last-job-title": "Desarrollador front",
+        "last-job-dates": "Enero 2020 - Enero 2021",
+        "last-job-description": "lorem"
+    },
+    "projects":{
+        "project1": "Landing page",
+        "project1-description": ""
+    }
+}

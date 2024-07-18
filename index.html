@@ -16,6 +16,14 @@
           <p id="toggle-text" class="toggle-theme__text">Dark mode</p>
         </div>
       </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="/assets/icons/es.svg" alt="">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="/assets/icons/gb.svg" alt="">
+        </div>
+      </div>
       <div id="toggle-colors" class="colors">
         <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
         <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
@@ -29,8 +37,8 @@
             <img src="/assets/images/profile.jpg" alt="">
           </div>
           <div class="card__header">
-            <h2 class="card__title">Cristian Benitez</h2>
-            <p class="card__subtitle">Front end Developer</p>
+            <h2 class="card__title no-margin">Cristian Benitez</h2>
+            <p class="card__subtitle" data-section="profile" data-value="rol">Front end Developer</p>
           </div>
           <div class="card__body">
             <div class="card__link">
@@ -41,10 +49,130 @@
               <i class="fas fa-phone-alt icon"></i>
               <a href="tel:3005556374">+57-3005556374</a>
             </div>
+            <p class="card__text" data-section="profile" data-value="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam <br /> Mi proposito es trasladar mi pasion por enseñar tecnologias.
+            </p>
+          </div> 
+        </article>
+        <article class="card card--expirence">
+          <h2 class="card__title">Experiences</h2>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                Feb 2024 - Current
+              </p>
+              <h3 class="experience__job" data-section="experience" data-value="last-job-title">Front End Developer</h3>
+              <p class="experience__description" data-section="experience" data-value="last-job-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique vel repellat laudantium voluptatem officia sequi. Necessitatibus ratione porro repudiandae, aliquid eligendi eos recusandae rerum labore ipsum laborum vitae consectetur eveniet.</p>
+            </div>
           </div>
-          <p class="card__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam <br /> Mi proposito es trasladar mi pasion por enseñar tecnologias.
-          </p>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                Feb 2024 - Current
+              </p>
+              <h3 class="experience__job" data-section="experience" data-value="first-job-title">Front End Developer</h3>
+              <p class="experience__description" data-section="experience" data-value="first-job-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique vel repellat laudantium voluptatem officia sequi. Necessitatibus ratione porro repudiandae, aliquid eligendi eos recusandae rerum labore ipsum laborum vitae consectetur eveniet.</p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/hobbie.jpg" alt="Man on a bike">
+          </div>
+          <h3 class="hobbie__title">Biking</h3>
+          <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde blanditiis nisi quisquam omnis repellendus sapiente odit? Quam voluptatum deserunt soluta, maxime harum quasi consequuntur assumenda aliquid, sit fuga, repudiandae delectus.</p>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--80"></div>  
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--90"></div>  
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--70"></div>  
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Design</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Photoshop</p>
+              <div class="skills__bar skills__bar--80"></div>  
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--90"></div>  
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Figma</p>
+              <div class="skills__bar skills__bar--70"></div>  
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Multimedia</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Effects</p>
+              <div class="skills__bar skills__bar--80"></div>  
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--90"></div>  
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--70"></div>  
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="landing page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">JavaScript</span>
+            </div>
+            <h2 class="card__title">Landing page</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius adipisci corporis officiis fuga corrupti consequatur impedit ex voluptatum optio illo non doloribus blanditiis, saepe recusandae obcaecati consequuntur. Nobis, quod rem.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="landing page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+              <span class="project__tag">JavaScript</span>
+            </div>
+            <h2 class="card__title">Landing page</h2>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius adipisci corporis officiis fuga corrupti consequatur impedit ex voluptatum optio illo non doloribus blanditiis, saepe recusandae obcaecati consequuntur. Nobis, quod rem.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
         </article>
       </section>
     </main>
