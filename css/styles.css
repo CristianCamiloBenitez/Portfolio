@@ -38,19 +38,44 @@ body.dark{
 }
 
 .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
     display: flex;
-    align-items: center; 
-    justify-content: center;
-    height: 75px;
+    align-items: center;
     padding: 0 1.5em;
     background-color: var(--bg-card-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: var(--transition);
+}
+
+.header .switches{
+    margin-right: auto;
+}
+
+.header .flags{
+    display: flex;
+    align-items: center;
+    margin-left: 1.5em;
+}
+
+.header .social-icons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header .social-icons a{
+    margin-right: 0.5em;
+    font-size: 1.5em;
 }
 
 .switches{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .toggle-theme{
@@ -74,27 +99,18 @@ body.dark{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .flags__item{
     width: 30px;
 }
 
-.flags__img{
-    display: block;
-    cursor: pointer;
-}
-
-.title{
-    text-align: center;
-    color: var(--primary-color);
-    transition: var(--transition);
-}
-
 .main{
     display: grid;
     padding: 2em;
     gap: 0.5em;
+    padding-top: calc(75px + 1.5em);
 }
 
 @media screen and (min-width:720px){
@@ -112,6 +128,7 @@ body.dark{
     .column--right {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, min-content);
+        align-items: start;
     }
 }
 
@@ -121,7 +138,7 @@ body.dark{
     border-radius: var(--border-radius);
 }
 
-.card__imagen-container{
+.card__image-container{
     min-width: 320px;
     border-radius: var(--border-radius);
     overflow: hidden;
@@ -143,7 +160,6 @@ body.dark{
 
 .card__link{
     margin-bottom: 0.7rem;
-    line-height: 1.6;
 }
 
 .card__text{
@@ -152,9 +168,9 @@ body.dark{
 }
 
 
-@media screen and(min-width: 760px){    
-    .card--project{
-        display:grid;
+@media screen and (min-width: 760px){    
+    .card--project {
+        display: grid;
         grid-template-columns: min-content 1fr;
         grid-column: 1 / -1;
     }
@@ -162,6 +178,13 @@ body.dark{
 
 .skills{
     padding: 1em 0;
+}
+
+.skills__header{
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    margin-left: auto;
 }
 
 .skills__tech{
@@ -259,7 +282,7 @@ body.dark{
     position: relative;
 }
 
-@media screen and(min-widht: 760px){
+@media screen and (min-widht: 760px){
     .project{
         margin-left: 2em;
     }
@@ -273,7 +296,7 @@ body.dark{
     width: 275px;
 }
 
-@media screen and(min-widht: 760px){
+@media screen and (min-widht: 760px){
     .project__tags{
         width: 325px;
         font-size: 0.8rem;
@@ -285,6 +308,7 @@ body.dark{
     border-radius: var(--border-radius);
     background-color: var(--primary-color);
     color: var(--bg-color);
+    transition: var(--transition);
 }
 
 .buttons{
@@ -331,4 +355,9 @@ body.dark{
     to{
         transform: translateX(var(--skill-bar-lenght));
     }
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
 }

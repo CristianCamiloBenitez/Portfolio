@@ -4,9 +4,19 @@ const toggleText = document.getElementById('toggle-text');
 
 const profileImage = document.querySelector('.card__image-container img');
 
+const emailLink = document.getElementById('emailLink');
+
 const flagsElement = document.getElementById("flags");
 
 const textsToChange = document.querySelectorAll("[data-section]");
+
+emailLink.addEventListener('click', (e) =>{
+    e.preventDefault();
+    const emailAddress = emailLink.textContent.trim();
+    navigator.clipboard.writeText(emailAddress)
+        .then(() => alert('Email address copied to clipboard'))
+        .catch(err => console.error('Failed to copy:', err));
+})
 
 const changeLanguage = async language=>{
     const requestJson = await fetch(`./languages/${language}.json`)
