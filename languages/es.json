@@ -1,18 +1,27 @@
 {
     "profile":{
-        "rol": "Desarrollador front-end",
-        "description": "lorem"
+        "rol": "Desarrollador de Software",
+        "description": "Ingeniero de Sistemas con énfasis en Sistemas de información, enfocado en el análisis de datos y el desarrollo de Software. <br /> Apasionado por aprovechar la tecnología para crear soluciones innovadoras."
     },
     "experience":{
-        "first-job-title": "Desarrollador",
-        "first-job-dates": "Enero 2018 - Enero 2020",
-        "first-job-description": "lorem",
-        "last-job-title": "Desarrollador front",
-        "last-job-dates": "Enero 2020 - Enero 2021",
-        "last-job-description": "lorem"
+        "title": "Experiencias",
+        "first-job-title": "Ingeniero de Software Voluntario",
+        "first-job-description": "Gestión del sitio web de la organización utilizando Wix, integrando PowerBI para la visualización de informes y desarrollo de una solución tecnológica personalizada adaptada para satisfacer las necesidades de comunidades vulnerables, incluidos LGBTIQ+ y migrantes.",
+        "last-job-title": "Desarrollador de Videojuego",
+        "last-job-description": "Diseño de un videojuego en 3D para la exploración virtual de un proyecto de AWAQ mejorando la visibilidad y la comunicación de los objetivos de la organización a través de un análisis detallado de los requisitos."
+    },
+    "hobbies":{
+        "hobby1": ""
+    },
+    "skills":{
+        "title": "Herramientas"
     },
     "projects":{
-        "project1": "Landing page",
-        "project1-description": ""
+        "project1": "Portafolio",
+        "project1-description": "Página web y Portafolio personal donde muestro información sobre mis proyectos y trayectoria profesional",
+        "project2": "Eco Guardians",
+        "project2-description": "Solución tecnológica que permite explorar de manera virtual e interactiva la Estación Biológica EBAV de AWAQ",
+        "project3": "",
+        "project3-description": ""
     }
 }

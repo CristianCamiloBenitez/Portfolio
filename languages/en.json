@@ -1,18 +1,27 @@
 {
     "profile":{
-        "rol": "front-end developer",
-        "description": "lorem"
+        "rol": "Software Developer",
+        "description": "Systems Engineer with emphasis on Information Systems, focused on data analysis and Software development. <br /> Passionate about taking advantage of technology to create innovative solutions."
     },
     "experience":{
-        "first-job-title": "Developer",
-        "first-job-dates": "Jan 2018 - Jan 2020",
-        "first-job-description": "lorem",
-        "last-job-title": "front developer",
-        "last-job-dates": "Jan 2020 - Jan 2021",
-        "last-job-description": "lorem"
+        "title": "Experiences",
+        "first-job-title": "Software Engineer Volunteer",
+        "first-job-description": "Managed the organization’s website using Wix, integrating PowerBI for report display, and develop a custom tech solution adapted to meet the needs of vulnerable communities, including LGBTIQ+ and migrants.",
+        "last-job-title": "Game Developer",
+        "last-job-description": "Designed a 3D video game for virtual exploration of an AWAQ project, enhancing visibility and communication of organizational goals through a detailed requirements analysis."
+    },
+    "hobbies":{
+        "hobby1": "lorem"
+    },
+    "skills":{
+        "title": "Tools"
     },
     "projects":{
-        "project1": "Landing page",
-        "project1-description": ""
+        "project1": "Portfolio",
+        "project1-description": "Website and personal portfolio with information about my projects and professional career.",
+        "project2": "Eco Guardians",
+        "project2-description": "Technological solution that allows to explore the EBAV Biological Station of AWAQ in a virtual and interactive way",
+        "project3": "",
+        "project3-description": ""
     }
 }
